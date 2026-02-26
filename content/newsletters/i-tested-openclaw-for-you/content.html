@@ -1,0 +1,85 @@
+    <p>Hello,</p>
+
+    <p>You've probably heard of
+    <a href="http://openclaw.ai" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">OpenClaw</a>
+    (previously known as ClawdBot or MoltBot), the open-source AI agent whose
+    <a href="https://github.com/openclaw/openclaw" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">GitHub repository</a>
+    reached over 200K⭐ in just a few weeks, created by developer Peter Steinberger. You may have even tested it. But are you using it correctly?</p>
+
+    <p>OpenClaw is an AI orchestration tool, a kind of "GPT wrapper", which you deploy on your own infrastructure (<strong>no need to buy a Mac Mini</strong>, mine runs perfectly on a $5/month server - I'll share my tech stack below).</p>
+
+    <p>The idea behind OpenClaw is simple: <strong>an AI agent that can finally do everything for you</strong>. You install it, give it a name and personality, and it gets to work. I named mine Omar (meaning Lobster in french), a reference to the character Omar Little from my favorite show, The Wire.</p>
+
+    <p>For example, it can:</p>
+    <ul>
+        <li>Connect to your email, summarize your messages, sort them, and even send replies</li>
+        <li>Handle your customer support</li>
+        <li>Summarize the news and weather every morning and send you a notification at 8 AM</li>
+        <li><strong>Code your website</strong></li>
+        <li>Create content and publish it on TikTok daily, analyzing what works best for your audience</li>
+        <li>And more</li>
+    </ul>
+
+    <p>All of this is controlled through a simple messaging app like WhatsApp or Telegram.</p>
+
+    <p>Why didn't this exist before?</p>
+
+    <p>The main reason is security: OpenClaw has access to all your API keys and if it gets hacked, it can harm you. It's already happened and will happen again. For example, if someone uses prompt injection in an email, OpenClaw reads it and sends them your Stripe API key, and then <strong>the hacker drains your account</strong>.</p>
+
+    <p>So my advice: <strong>Be careful with OpenClaw</strong>. It's viral and powerful but also dangerous. Avoid delegating its installation to a third party. Tools are currently being developed to secure OpenClaw agents, such as
+    <a href="http://keychains.dev" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">keychains.dev</a>,
+    a project I've been working on the past few months.</p>
+<br>
+
+<!-- Email Image + Caption Block -->
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
+  <!-- Image Container -->
+  <tr>
+    <td align="center" style="padding: 0;">
+      <a href="https://www.airconcierge.io/fr/insights/bordeaux" target="_blank" style="text-decoration: none;">
+        <img
+          src="https://res.cloudinary.com/djzgogavd/image/upload/v1772093087/1770021476876_ocelem.jpg"
+          alt="Bordeaux Airbnb Market Insights: Visual analysis of Q1 2026 trends including occupancy rates and pricing"
+          width="600"
+          style="display: block; border: none; max-width: 100%; margin: 0 auto;"
+          border="0"
+        />
+      </a>
+    </td>
+  </tr>
+
+  <!-- Caption Container -->
+  <tr>
+    <td align="center" style="padding: 12px 0 20px 0; font-size: 14px; color: #444444; line-height: 1.5;">
+      <p style="margin: 0; font-style: italic; font-weight: normal;">
+        Deploying an AI agent with full access on your hardware
+      </p>
+    </td>
+  </tr>
+</table>
+
+    <p>So, does it actually work?</p>
+
+    <p>Yes, <strong>as long as you use the right AI model</strong>. If you've been following along, you know we connect our agent to an AI provider. There are dozens of them. If you choose a cheap model, the work will be poorly done, and you'll waste time. The only models that made OpenClaw truly useful for me are the latest from Anthropic: Claude Opus 4.5 & 4.6 and Claude Sonnet 4.6.</p>
+
+    <p>But there's another issue: <strong>the bill exploded</strong> 💸. I literally burned through $25 worth of tokens in minutes. And I have no visibility on it.</p>
+
+    <p>So is it worth it? Not in my case, where tools like Claude Code or Codex give you far more tokens with a monthly subscription.</p>
+
+    <p><strong>And I have good news for you</strong>: It's now possible to run Claude Code on a private virtual server and control it via Telegram, thanks to this open-source project I contribute to:
+    <a href="https://github.com/RichardAtCT/claude-code-telegram" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">claude-code-telegram</a>.</p>
+
+    <p>If you want to stay ahead and avoid burning cash continuously, here's the perfect setup:</p>
+    <ul>
+        <li>Buy a virtual private server (VPS) from
+        <a href="https://www.hetzner.com" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">Hetzner</a>
+        for $5/month or another provider</li>
+        <li>Subscribe to Claude Code (starting at $15/month)</li>
+        <li>Connect to the server and install Claude Code</li>
+        <li>Install
+        <a href="https://github.com/RichardAtCT/claude-code-telegram" target="_blank" style="color: #333; text-decoration: underline; font-weight: bold;">Claude Code Telegram</a>
+        and connect</li>
+    </ul>
+
+    <p>From there, you have an OpenClaw equivalent with the best AI models at a fixed monthly price. Result: Yesterday, I went hiking while giving instructions to my AI agent. I even made a pull request to claude-code-telegram.
+    And most importantly, <strong>you can sleep soundly knowing your bill won't explode</strong>.</p>

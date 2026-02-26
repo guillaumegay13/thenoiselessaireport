@@ -55,3 +55,54 @@ body {
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
 }
+
+/* Newsletter content — override email inline styles for dark theme */
+.newsletter-content {
+  color: #d4d4d8;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.newsletter-content * {
+  color: inherit !important;
+  font-family: inherit !important;
+  max-width: 100% !important;
+}
+
+.newsletter-content p {
+  margin-bottom: 1em;
+}
+
+.newsletter-content a {
+  color: #818cf8 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+  transition: color 0.15s;
+}
+
+.newsletter-content a:hover {
+  color: #a5b4fc !important;
+}
+
+.newsletter-content strong {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.newsletter-content ul {
+  margin: 0.5em 0 1em 1.25em;
+  list-style: disc;
+}
+
+.newsletter-content li {
+  margin-bottom: 0.35em;
+}
+
+.newsletter-content img {
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.newsletter-content table {
+  margin: 1.5em auto;
+}

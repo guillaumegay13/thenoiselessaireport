@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SubscribeForm from "./subscribe-form";
 
 export default function Home() {
@@ -46,6 +47,13 @@ export default function Home() {
         <p className="animate-fade-in-up-delay-2 mt-4 font-mono text-xs text-zinc-600">
           Free &middot; No spam &middot; Unsubscribe anytime
         </p>
+
+        <Link
+          href="/newsletters"
+          className="animate-fade-in-up-delay-2 mt-3 font-mono text-xs text-zinc-500 transition-colors hover:text-indigo-400"
+        >
+          Read past issues &rarr;
+        </Link>
 
         {/* Features */}
         <div className="animate-fade-in-up-delay-2 mt-16 grid w-full grid-cols-1 gap-px overflow-hidden rounded-lg border border-white/5 bg-white/5 sm:grid-cols-3">
