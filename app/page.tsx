@@ -48,12 +48,21 @@ export default function Home() {
           Free &middot; No spam &middot; Unsubscribe anytime
         </p>
 
-        <Link
-          href="/newsletters"
-          className="animate-fade-in-up-delay-2 mt-3 font-mono text-xs text-zinc-500 transition-colors hover:text-indigo-400"
-        >
-          Read past issues &rarr;
-        </Link>
+        <div className="animate-fade-in-up-delay-2 mt-3 flex items-center gap-4">
+          <Link
+            href="/newsletters"
+            className="font-mono text-xs text-zinc-500 transition-colors hover:text-indigo-400"
+          >
+            Read past issues &rarr;
+          </Link>
+          <span className="text-zinc-700">&middot;</span>
+          <Link
+            href="/contribute"
+            className="font-mono text-xs text-zinc-500 transition-colors hover:text-indigo-400"
+          >
+            Contribute &rarr;
+          </Link>
+        </div>
 
         {/* Features */}
         <div className="animate-fade-in-up-delay-2 mt-16 grid w-full grid-cols-1 gap-px overflow-hidden rounded-lg border border-white/5 bg-white/5 sm:grid-cols-3">
