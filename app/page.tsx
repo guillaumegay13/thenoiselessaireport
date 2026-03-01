@@ -60,7 +60,7 @@ export default function Home() {
           {[
             { label: "Signal only", desc: "No fluff, no hype" },
             { label: "5 min read", desc: "Respect your time" },
-            { label: "Every Tuesday", desc: "Consistently delivered" },
+            { label: "Every Thursday", desc: "Consistently delivered" },
           ].map((item) => (
             <div
               key={item.label}
