@@ -36,7 +36,7 @@ export default function Home() {
         {/* Subheading */}
         <p className="animate-fade-in-up-delay-2 mt-6 max-w-md text-lg leading-relaxed text-zinc-400">
           Cut through the hype. One concise, high-signal report on what actually
-          matters in AI&nbsp;&mdash;&nbsp;delivered weekly to your inbox.
+          matters in AI.
         </p>
 
         {/* Email form */}

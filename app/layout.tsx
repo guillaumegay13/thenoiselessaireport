@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "The Noiseless AI Report",
   description:
-    "Cut through the AI hype. Get one concise, high-signal report on what actually matters in AI — delivered weekly.",
+    "Cut through the AI hype. Get one concise, high-signal report on what actually matters in AI.",
 };
 
 export default function RootLayout({
