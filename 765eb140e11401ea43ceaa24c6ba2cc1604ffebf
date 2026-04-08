@@ -1,0 +1,25 @@
+content/newsletters/claude-code-leaked-so-what/meta.json
+  2994b5f38c180931 1-5
+content/newsletters/claude-code-leaked-so-what/content.html
+  2994b5f38c180931 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "765eb140e11401ea43ceaa24c6ba2cc1604ffebf",
+  "prompts": {
+    "2994b5f38c180931": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e2463a89-d48d-4e06-84d1-f92eec24a174",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Guillaume Gay",
+      "messages": [],
+      "total_additions": 26,
+      "total_deletions": 0,
+      "accepted_lines": 26,
+      "overriden_lines": 0
+    }
+  }
+}
