@@ -1,0 +1,80 @@
+<p>
+  According to Andreessen Horowitz, the entire AI industry will be shaped by lowering personal AI costs to <strong>$20/month</strong>.
+</p>
+
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    Magical OpenClaw experiences that use frontier models cost $300-1,000/day today, heading to $10,000/day and more. The future shape of the entire technology industry will be how to drive that to $20/month.
+  </p>
+  &mdash; Marc Andreessen &#x1f1fa;&#x1f1f8; (@pmarca)
+  <a href="https://twitter.com/pmarca/status/2041397922940801170?ref_src=twsrc%5Etfw">April 7, 2026</a>
+</blockquote>
+
+<p>
+  If you've experienced OpenClaw (or Hermes Agent, or any other personal AI agent) and you're doing sometimes complex tasks, you might have found that running frontier AI models in such orchestration tools is very expensive.
+</p>
+
+<p>
+  A friend of Elon Musk spends <strong>$200/day</strong> despite running open source models for simple tasks.
+</p>
+
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    A friend of mine showed me his OpenClaw setup. He runs open source models locally on his home computers for easier stuff, but spends ~$200/day on frontier models.
+  </p>
+  &mdash; Elon Musk (@elonmusk)
+  <a href="https://twitter.com/elonmusk/status/2041399689048899641?ref_src=twsrc%5Etfw">April 7, 2026</a>
+</blockquote>
+
+<p>
+  Now, there are hacks to drastically reduce those costs.
+</p>
+
+<p>
+  For example, using your Anthropic's subscription was one of them until Anthropic banned its usage for other agents than Claude Code.
+</p>
+
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.<br><br>
+    You can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.
+  </p>
+  &mdash; Boris Cherny (@bcherny)
+  <a href="https://twitter.com/bcherny/status/2040206440556826908?ref_src=twsrc%5Etfw">April 3, 2026</a>
+</blockquote>
+
+<p>
+  In a previous newsletter,
+  <a href="https://www.noiselessreport.ai/newsletters/i-tested-openclaw-for-you">I explained how to set up Claude Code-as-OpenClaw agent</a>
+  using an open source Telegram chat library (claude-code-telegram) on a VPS. Doing so, you'll have fixed subscription costs for your agentic operations.
+</p>
+
+<p>
+  However, you might want to use other agents than Claude Code.
+</p>
+
+<p>
+  That's where <a href="https://manifest.build">Manifest</a> arrives. Manifest is an open source LLM router specialized for OpenClaw &amp; agentic usage.
+</p>
+
+<p>
+  What I like about that product is that it's easy to setup (one command line) and I can connect all my agents in different workspaces. It handles requests routing &amp; I can use any provider with subscription or API key.
+</p>
+
+<p>
+  My default routing is : Claude Sonnet 4.6 for easy/standard tasks + gpt-5.4 mini fallback, Claude Opus 4.6 for complex/reasoning tasks + gpt 5.4 fallback - configured with my Claude Code &amp; ChatGPT subscriptions.
+</p>
+
+<p>
+  I contributed to this project - and after using it for several weeks now I can say that's a game changer : I couldn't use my agents without it.
+</p>
+
+<p>
+  Now you don't have any excuses to procrastinate your agentic workflow automations.
+</p>
+
+<p>
+  I'm curious : what's your setup ?
+</p>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
