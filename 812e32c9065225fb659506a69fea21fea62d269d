@@ -1,0 +1,25 @@
+content/newsletters/3-practical-ways-to-reduce-your-agents-ai-costs/content.html
+  c8da63e510cce943 1-80
+content/newsletters/3-practical-ways-to-reduce-your-agents-ai-costs/meta.json
+  c8da63e510cce943 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "812e32c9065225fb659506a69fea21fea62d269d",
+  "prompts": {
+    "c8da63e510cce943": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d11c62dd-4b72-440e-b518-37b48fad3575",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Guillaume Gay",
+      "messages": [],
+      "total_additions": 85,
+      "total_deletions": 0,
+      "accepted_lines": 85,
+      "overriden_lines": 0
+    }
+  }
+}
